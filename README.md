@@ -9,7 +9,7 @@ The acceleration and gyroscope readings are obtained using the getEvent() functi
 
 The image below illustrates the circuit connections of the ESP32 with the MPU6050 sensor.
 
-![Screenshot 192653](./Screenshot%202025-03-22%20192653.png)
+![Screenshot 192653](./image5.png)
 
 The Machine Learning model implemented uses the decision tree algorithm to predict if a fall has occured or not. The model is trained on the Sisfall ddataset that The dataset contains orientation data collected from 38 individuals across various age brackets. It consists of data collected from 23 young adults performing 19 activities of daily living (ADL) and 15 fall activities, 15 ADL types performed by 14 elderly subjects aged over 62 and data from one elderly subject aged 60 who performed ADLs as well as falls. The ML model resulted in an accuracy of 87.91%. The confuaion matrix of the model is given below:
 
